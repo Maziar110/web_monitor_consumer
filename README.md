@@ -6,7 +6,7 @@ The project has two parts.
 
 1. **Infrastructure**
 
-There is a folder called `kafka_terraform_code`, the terraform code is designed to provision a Kafka service in [Aiven]("https://aiven.io), to familiarize yourself with terraform code and learn how to run it, read the [README](/kafka_terraform_code/README.md). 
+There is a folder called `kafka_terraform_code`, the terraform code is designed to provision a Kafka service in [Aiven]("https://aiven.io"), to familiarize yourself with terraform code and learn how to run it, read the [README](/kafka_terraform_code/README.md). 
 
 2. **Application**
 
