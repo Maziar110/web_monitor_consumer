@@ -1,0 +1,6 @@
+websites:
+  - https://aiven.io/
+  - https://console.aiven.io/login
+
+regex: "\\baiven\\b"  
+app_run_period_second: 60
