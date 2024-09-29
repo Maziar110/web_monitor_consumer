@@ -9,7 +9,7 @@ jobs:
   build-push:
     runs-on: ubuntu-latest
     env:
-      app_work_directory: ./web_monitor_consumer/applications
+      app_work_directory: ./web_monitor_consumer/application
     steps:
       - name: checkout code 
         uses: actions/checkout@v4
