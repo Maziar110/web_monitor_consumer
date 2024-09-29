@@ -8,14 +8,12 @@ on:
 jobs:
   build-push:
     runs-on: ubuntu-latest
-    env:
-      app_work_directory: ./application
     steps:
       - name: build docker image and push
         uses: docker/build-push-action@v6
         with:
           push: true
-          file: $app_work_directory/Dockerfile
+          file: ./application/Dockerfile
           tags: maziar110/web-monitor-consumer:latest
 
 
