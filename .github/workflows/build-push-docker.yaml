@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - test-action
 jobs:
   build-push:
     runs-on: ubuntu-latest
