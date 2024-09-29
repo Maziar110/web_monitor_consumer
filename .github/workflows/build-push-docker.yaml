@@ -8,7 +8,13 @@ on:
 jobs:
   build-push:
     runs-on: ubuntu-latest
+    env:
+      app_work_directory: ./application
     steps:
+      - name: checkout code 
+        uses: actions/checkout@v4
+      - name: Change of directory
+        run: cd $app_work_directory
       - name: build docker image and push
         uses: docker/build-push-action@v6
         with:
